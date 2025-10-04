@@ -28,8 +28,24 @@
   - 코드업: `cu_문제번호.py`  
   - 백준: `boj_문제번호.py`  
   - 프로그래머스: `pg_문제번호.py`
- 
-  ❗번호가 없는 문제의 경우, 팀원끼리 파일 이름을 사전에 정하기
+ </br>
+
+<details>
+  <summary><b>❗번호가 없는 문제의 경우, 팀원끼리 파일 이름을 사전에 정하기</b></summary>
+  <div markdown="1">
+    <ul>
+        <p></p>
+      <li>17차시 얼음틀 문제: <code>ex_17_ice.py</code></li>
+      <img src="https://github.com/user-attachments/assets/dd25deb4-eec0-499c-83a4-8509987bb06b" width=40%>
+      <p></p>
+      <li>18차시 별 그리기 문제: <code>ex_18_star.py</code></li>
+      <img src="https://github.com/user-attachments/assets/61602d10-49fd-4205-a584-fbfd3fd9c385" width=40%>
+      <p></p>
+      <li>18차시 별, 무지개 여러개 그리는 문제: <code>ex_18_RainbowStar.py</code></li>
+      <img src="https://github.com/user-attachments/assets/b9cbe9ed-fb7b-4bef-ad2f-fcae92bc0e60" width=40%>
+    </ul>
+  </div>
+</details>
 
 ---
 
@@ -45,7 +61,7 @@
 - `Feat: ex_02_03 풀이 업로드`  
 - `Fix: boj_2557 출력 형식 수정`  
 - `Refactor: pg_42587 queue 풀이 추가`  
-- `Docs: README에 파일명 규칙 추가`  
+- `Docs: README에 파일명 규칙 추가`
 
 ---
 
