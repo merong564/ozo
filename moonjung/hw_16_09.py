@@ -42,4 +42,24 @@ class CirQueue:
         if (self.rear + 1) % self.size == self.front:
             return True
         return False
-    
+
+
+## (참고) 회전 큐 -> deque 이용
+from collections import deque
+
+def rotate_queue(data, k):
+    dq = deque(data)
+
+    # 방법 1. 왼쪽으로 k만큼 회전
+    # dq.rotate(-k)
+
+    # 방법 2. 가장 왼쪽 값을 오른쪽에 붙이기, k번 반복
+    for _ in range(k):
+        dq.append(dq.popleft())
+
+    return dq
+
+
+queue = [1, 2, 3, 4, 5]
+k = 2
+print(rotate_queue(queue, k))
