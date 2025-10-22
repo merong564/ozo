@@ -1,0 +1,12 @@
+-- 프로그래머스 답안
+SELECT B.TITLE, B.BOARD_ID, R.REPLY_ID, R.WRITER_ID, R.CONTENTS, DATE_FORMAT(R.CREATED_DATE, '%Y-%m-%d') AS CREATED_DATE
+FROM USED_GOODS_BOARD as B
+INNER JOIN USED_GOODS_REPLY as R
+ON B.BOARD_ID = R.BOARD_ID
+WHERE DATE_FORMAT(B.CREATED_DATE, '%Y-%m') = '2022-10'
+ORDER BY R.CREATED_DATE,  B.TITLE;
+
+
+-- 1. inner join 써야함
+-- 2. date_format() 함수로 날짜에서 00:00:00를 빼야 함
+-- 3. 조회, 정렬할 날짜는 댓글 날짜(R.CREATED_DATE)이고, 조건으로 쓸 날짜는 게시글 날짜(B.CREATED_DATE)

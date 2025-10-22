@@ -1,13 +1,13 @@
-# 프로그래머스 답안
-'''
+-- 프로그래머스 답안
+
 SELECT ID, EMAIL, FIRST_NAME, LAST_NAME
 FROM DEVELOPER_INFOS
 WHERE SKILL_1 = 'Python' OR SKILL_2 = 'Python' OR SKILL_3 = 'Python'
 ORDER BY ID;
-'''
 
-# MySQL에 직접 구현해본 코드
-'''
+
+-- MySQL에 직접 구현해본 코드
+
 CREATE ozo;
 
 USE ozo;
@@ -42,10 +42,10 @@ SELECT ID, EMAIL, FIRST_NAME, LAST_NAME
 FROM DEVELOPER_INFOS
 WHERE SKILL_1 = 'Python' OR SKILL_2 = 'Python' OR SKILL_3 = 'Python'
 ORDER BY ID;
-'''
 
-# PRIMARY KEY 여러개 설정 시 에러남. PRIMARY KEY는 TABLE 당 하나만 존재함
 
-# 여러 개의 조건 사용할 경우 AND OR NOT 사용
-# IN 문법 쓰면 OR 여러개 필요 없다고 함
-# https://codingapple.com/unit/sql-where-and-or-in/
+-- PRIMARY KEY 여러개 설정 시 에러남. PRIMARY KEY는 TABLE 당 하나만 존재함
+
+-- 여러 개의 조건 사용할 경우 AND OR NOT 사용
+-- IN 문법 쓰면 OR 여러개 필요 없다고 함
+-- https://codingapple.com/unit/sql-where-and-or-in/

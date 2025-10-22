@@ -1,8 +1,7 @@
-# 프로그래머스 답안
+-- 프로그래머스 답안
 
-'''
+
 SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS
 WHERE INTAKE_CONDITION = 'Sick'
 ORDER BY ANIMAL_ID
-'''
